@@ -1,1 +1,12 @@
+* {
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
 
+.appItemContainer {
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+  height: 100vh;
+}
